@@ -1,10 +1,10 @@
-const inputName = document.querySelector('#productName')
-const inputPrice = document.querySelector('#productPrice')
+const inputName = document.querySelector('#productNombre')
+const inputPrice = document.querySelector('#productoPrecio')
 const button = document.querySelector('button')
 
 button.addEventListener('click', (e)=>{
-    const name= inputName.value
-    const price = inputPrice.value
+    const nombre= inputName.value
+    const precio = inputPrice.value
 
     fetch('/api/v1/products', {
         method:'POST',
@@ -12,8 +12,8 @@ button.addEventListener('click', (e)=>{
         'Content-Type': 'application/json',
     },
     body: JSON.stringify({
-        name,
-        price,
+        nombre,
+        precio,
     }),
 })
 })

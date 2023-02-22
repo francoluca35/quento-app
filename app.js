@@ -14,8 +14,8 @@ mongoose.connect(
 
     const productSchema = mongoose.Schema(
     {
-        name:{type:String, require:true},
-        price: Number,
+        nombre:{type:String, require:true},
+        precio: Number,
     },
     {timestamps:true}
     )
