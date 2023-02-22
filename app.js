@@ -7,7 +7,7 @@ require('dotenv').config()
 const app = express()
 
 mongoose.connect(
-    'mongodb+srv://FRANCO1234:PeiKcdqzbgHcefe1@developets.pnvogln.mongodb.net/stock-app?retryWrites=true&w=majority'
+    'mongodb+srv://FRANCO1234:0G3HkCIVeXKM2nLS@development.dydprre.mongodb.net/stock-control?retryWrites=true&w=majority'
     )
     .then((result)=>{ console.log('conexion exitosa a la MGDB')})
     .catch((err)=> console.log(err))
