@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'stock-app-quento'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7651F02C8C9543FB9A1D1E971EAA12AD }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4EFC89493D1E49BB9DF2D68F28FDDF91 }}
           package: .
